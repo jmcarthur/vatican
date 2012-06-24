@@ -2,9 +2,7 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE Rank2Types            #-}
 
--- A naive, lazy interpreter. It has a terrible constant overhead,
--- but, perhaps surprisingly, it passes the tower of interpreters
--- test.
+-- A naive, lazy interpreter. It has terrible performance.
 
 module Naive where
 
